@@ -21,7 +21,7 @@ menu {
   column-gap: 28px;
 }
 
-.nav-link {
+.nav__link {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -43,4 +43,86 @@ div {
 
 img {
   margin-left: 28px;
+}
+
+.hero {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-image: url(../img/hero-bgi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.hero__container {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 54px;
+  line-height: 80px;
+  letter-spacing: 1.8px;
+  color: #0b3b3c;
+  margin-bottom: 23px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b3b3c;
+  margin-bottom: 40px;
+}
+
+.hero__btn,
+.hero__link {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.hero__btn {
+  background: #7e0707;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero__link {
+  border: 2px solid #7e0707;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #7e0707;
+  text-decoration: none;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 112px;
+}
+
+.slider__image {
+  margin: 46px 14px 46px 46px;
+}
+
+.slider__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #0b3b3c;
+  margin-top: 55px;
 }
